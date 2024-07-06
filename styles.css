@@ -1,0 +1,70 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image: url('backround.JPG');
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.logo-container {
+    margin-bottom: 10px; /* Space between logo and menu */
+    margin-top: 0px;
+}
+
+.logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+nav.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; /* Space between menu items */
+}
+
+nav.menu ul li {
+    display: inline;
+}
+
+nav.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: rgb(55, 55, 55);
+    border-radius: 5px;
+    display: flex;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to menu items */
+}
+
+nav.menu ul li a:hover {
+    background-color: rgb(101, 101, 101);
+}
+
+.version-status {
+    z-index: 1000;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: aliceblue;
+    font-size: 15px;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 5px
+
+}
